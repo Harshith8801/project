@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(146, 146, 146);
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login{
+            background-color:antiquewhite;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgb(99, 92, 92);
+            margin-top: 10%;
+            margin-left: 35%;
+            width: 400px;   
+
+        }
+        .login h2 {
+            text-align: center;
+            margin-bottom: auto;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .login input{
+            padding: 2%;
+            margin-bottom: 5%;
+            margin-left: 8%;
+
+        }
+        .login button{
+            padding: 4% 30%;
+            background-color: rgb(55, 206, 55);
+            margin-left: 8%;
+            font-size:medium;
+        }
+        .link {
+            margin-left: 42%;
+            margin-top: -5%;
+        }
+        .heading{
+            background-color: rgb(255, 255, 255);
+            padding: 1%;
+            box-shadow:  0 4px 8px  white;
+            }
+
+        .fb{
+            background-color: antiquewhite;
+            color: rgb(6, 6, 6);
+            padding: 15px 20px;
+            text-align: right;
+            box-shadow:  0 4px 8px  ;
+            
+            
+                 }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>CMF(NOTHING)  PHONE </h1>
+        </div>
+    <div class="fb">
+        <a href="/contact">CONTACT US</a>
+        <a href="/feedback">FEEDBACK</a>
+        <a href="/home">home
+        </a>
+    </div>
+
+    
+    <div class="login">
+    <form action="" method='POST'>        
+        <h2>SIGN IN :</h2>
+        <div>
+        <P>USER NAME:</P>
+        <input type="text" id="login"
+        placeholder="USER NAME" name="int1">
+        </div>
+        <div> 
+        <P>DATE OF BIRTH:</P>
+        <input type="date" ID="DOB"
+        placeholder="DOB">
+        </div>
+        <P>LANGUAGE: </P>
+        <div>
+    
+        <input type="checkbox" value="hindi">
+        <label for="">hindi</label></h3>
+        </div>
+        <div> 
+                     
+        <input type="checkbox" value="telugu">
+        <label for="">telugu</label> </h3>
+        </div>  
+        <div> 
+                      
+        <input type="checkbox" value="english">
+        <label for="">english</label> </h3>
+        </div>    
+        <P>GENDER :  </P>
+        <input type="radio" value="male">
+        <label for="">male</label>
+        <input type="radio" value="female">
+        <label for="">female</label> <h3>
+        <div>
+        <p>ENTER PASSWORD:</p>
+        <input type="password" id="password"
+        placeholder="CREATE PASSWORD">
+        </div>
+        <div>
+        <input type="password" id="password"
+        placeholder="RE-ENTER PASSWORD" name="int2">
+        </div>        
+
+
+        <button type="submit">LOGIN </button>
+
+        </div>
+    </form>
+</body>
+</html>
