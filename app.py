@@ -46,7 +46,7 @@ def admin():
 
 @app.route("/")
 def home():
-    return render_template("home.html")
+    return render_template("nothing.html")
 @app.route("/feedback")
 def feedback():
     return render_template("feedback.html")
